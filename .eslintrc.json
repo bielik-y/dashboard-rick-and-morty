@@ -4,16 +4,14 @@
     "next",
     "next/core-web-vitals",
     "eslint:recommended",
-    "prettier",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
-  "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
   "rules": {
-    "react/react-in-jsx-scope": "off",
-    "prettier/prettier": "warn"
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "react": {
